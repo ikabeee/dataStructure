@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int a=5,b=3,result=0;
+int a=0,b=0,result=0;
 //Funcion retornando void
 void printInformation(){
     cout << "Nombre: Carlos" << "\n";
@@ -15,8 +15,7 @@ int main(){
     printInformation();
     
     //Guardamos el valor en una variable
-    result=sumNumbers(a,b);
-    cout << "RESULTADO DE LA FUNCION TIPO INT: " << result << "\n";
+    result=
 
     return 0;
 }

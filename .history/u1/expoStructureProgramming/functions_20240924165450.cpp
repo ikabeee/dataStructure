@@ -6,6 +6,7 @@ string carSelected="";
 bool flag=false;
 int indexCounter=0;
 
+
 void showCars(){
     //Equivalente de un foreach
     for(string i : carNames) {

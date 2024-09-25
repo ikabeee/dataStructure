@@ -5,7 +5,6 @@ string car="";
 string carSelected="";
 bool flag=false;
 int indexCounter=0;
-
 void showCars(){
     //Equivalente de un foreach
     for(string i : carNames) {
@@ -31,7 +30,7 @@ int main(){
     cout<<"Selecciona un carro: ";
     cin>>car;
     selectCar(car);
-    cout << "Haz seleccionado el siguiente modelo: ";
+    cout>>"Haz seleccionado el siguiente modelo: ";
     cout << carSelected;
 
     return 0;

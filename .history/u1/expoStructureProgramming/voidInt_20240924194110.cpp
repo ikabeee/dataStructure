@@ -17,6 +17,6 @@ int main(){
     //Guardamos el valor en una variable
     result=sumNumbers(a,b);
     cout << "RESULTADO DE LA FUNCION TIPO INT: " << result << "\n";
-
+    
     return 0;
 }

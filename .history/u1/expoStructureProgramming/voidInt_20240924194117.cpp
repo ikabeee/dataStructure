@@ -11,7 +11,7 @@ int sumNumbers(int a, int b){
 }
 
 int main(){
-    cout << "RESULTADO DE LA FUNCION TIPO VOID: ";
+    cout << "RESULTADO DE LA FUNCION TIPO VOID: " << pri;
     printInformation();
     
     //Guardamos el valor en una variable

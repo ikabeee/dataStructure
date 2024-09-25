@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int a=5,b=3,result=0;
+int a=0,b=0,result=0;
 //Funcion retornando void
 void printInformation(){
     cout << "Nombre: Carlos" << "\n";
 }
-//Funcion retornando un valor tipo entero
+//Funcion retornando una variable tipo entero
 int sumNumbers(int a, int b){
     return a+b;
 }
@@ -14,9 +14,8 @@ int main(){
     cout << "RESULTADO DE LA FUNCION TIPO VOID: ";
     printInformation();
     
-    //Guardamos el valor en una variable
-    result=sumNumbers(a,b);
-    cout << "RESULTADO DE LA FUNCION TIPO INT: " << result << "\n";
+    //Guardamos la variable 
+
 
     return 0;
 }
